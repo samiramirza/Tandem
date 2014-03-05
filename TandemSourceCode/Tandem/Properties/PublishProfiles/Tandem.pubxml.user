@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/System.Web.Optimization.DLL">
+      <publishTime>01/23/2014 13:33:14</publishTime>
+    </File>
+    <File Include="bin/Tandem.dll">
+      <publishTime>03/05/2014 15:28:06</publishTime>
+    </File>
+    <File Include="Patient.aspx">
+      <publishTime>03/04/2014 18:00:02</publishTime>
+    </File>
+    <File Include="Patient_Images/btn_blue1.png">
+      <publishTime>12/12/2013 12:05:26</publishTime>
+    </File>
+    <File Include="Patient_Images/btn_blue2.png">
+      <publishTime>12/12/2013 12:17:52</publishTime>
+    </File>
+    <File Include="Patient_Images/btn_blue3.png">
+      <publishTime>12/12/2013 12:16:44</publishTime>
+    </File>
+    <File Include="Patient_Images/btn_grey1.png">
+      <publishTime>12/12/2013 12:05:06</publishTime>
+    </File>
+    <File Include="Patient_Images/btn_grey2.png">
+      <publishTime>12/12/2013 12:23:48</publishTime>
+    </File>
+    <File Include="Patient_Images/btn_grey3.png">
+      <publishTime>12/12/2013 12:23:12</publishTime>
+    </File>
+    <File Include="Patient_Images/Calendar-Icon.png">
+      <publishTime>12/13/2013 12:49:10</publishTime>
+    </File>
+    <File Include="Patient_Images/loading.gif">
+      <publishTime>02/18/2014 13:44:49</publishTime>
+    </File>
+    <File Include="Patient_Images/pointer.jpg">
+      <publishTime>12/06/2013 14:17:42</publishTime>
+    </File>
+    <File Include="sample.xml">
+      <publishTime>02/17/2014 15:09:24</publishTime>
+    </File>
+    <File Include="sample1.xml">
+      <publishTime>02/17/2014 15:00:42</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>12/12/2013 18:23:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>12/10/2013 15:01:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.8.20.min.js">
+      <publishTime>12/13/2013 12:48:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery.css">
+      <publishTime>12/18/2013 11:24:14</publishTime>
+    </File>
+    <File Include="Scripts/jquery.placeholder.js">
+      <publishTime>01/22/2014 05:18:02</publishTime>
+    </File>
+    <File Include="Scripts/jquery.ui.all.css">
+      <publishTime>12/13/2013 15:10:58</publishTime>
+    </File>
+    <File Include="Scripts/jquery.ui.core.css">
+      <publishTime>12/13/2013 15:05:16</publishTime>
+    </File>
+    <File Include="Scripts/jquery.ui.datepicker.css">
+      <publishTime>02/17/2014 11:34:25</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>02/13/2014 15:59:21</publishTime>
+    </File>
+    <File Include="Scripts/siteSpecific.css">
+      <publishTime>02/19/2014 11:06:04</publishTime>
+    </File>
+    <File Include="Service References/TandemIntegration/configuration.svcinfo">
+      <publishTime>03/05/2014 12:43:56</publishTime>
+    </File>
+    <File Include="Service References/TandemIntegration/configuration91.svcinfo">
+      <publishTime>03/05/2014 12:43:56</publishTime>
+    </File>
+    <File Include="Service References/TandemIntegration/Reference.svcmap">
+      <publishTime>03/05/2014 12:43:56</publishTime>
+    </File>
+    <File Include="Service References/TandemIntegration/TandemIntegration.wsdl">
+      <publishTime>03/05/2014 12:43:56</publishTime>
+    </File>
+    <File Include="Thankyou.aspx">
+      <publishTime>02/18/2014 17:36:32</publishTime>
+    </File>
+    <File Include="VerifyInfo.aspx">
+      <publishTime>03/05/2014 13:19:33</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/05/2014 15:28:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

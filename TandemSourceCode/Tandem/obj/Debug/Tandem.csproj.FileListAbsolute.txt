@@ -1,0 +1,34 @@
+E:\Tandem\Tandem\bin\Tandem.dll
+E:\Tandem\Tandem\bin\Tandem.pdb
+E:\Tandem\Tandem\obj\Debug\Tandem.dll
+E:\Tandem\Tandem\obj\Debug\Tandem.pdb
+D:\Samira\Project\.Net Projects\TandemCsharp\Tandem\Tandem\bin\Tandem.dll
+D:\Samira\Project\.Net Projects\TandemCsharp\Tandem\Tandem\bin\Tandem.pdb
+D:\Samira\Project\.Net Projects\TandemCsharp\Tandem\Tandem\obj\Debug\Tandem.dll
+D:\Samira\Project\.Net Projects\TandemCsharp\Tandem\Tandem\obj\Debug\Tandem.pdb
+D:\Samira\Project\.Net Projects\TandemCsharp\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+D:\Samira\Project\.Net Projects\TandemCsharp - WithoutTemplate\Tandem\Tandem\bin\Tandem.dll
+D:\Samira\Project\.Net Projects\TandemCsharp - WithoutTemplate\Tandem\Tandem\bin\Tandem.pdb
+D:\Samira\Project\.Net Projects\TandemCsharp - WithoutTemplate\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+D:\Samira\Project\.Net Projects\TandemCsharp - WithoutTemplate\Tandem\Tandem\obj\Debug\Tandem.dll
+D:\Samira\Project\.Net Projects\TandemCsharp - WithoutTemplate\Tandem\Tandem\obj\Debug\Tandem.pdb
+E:\Tandem Diabetes\Tandem\Tandem\bin\Tandem.dll
+E:\Tandem Diabetes\Tandem\Tandem\bin\Tandem.pdb
+E:\Tandem Diabetes\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+E:\Tandem Diabetes\Tandem\Tandem\obj\Debug\Tandem.dll
+E:\Tandem Diabetes\Tandem\Tandem\obj\Debug\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem\Tandem\Tandem\bin\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem\Tandem\Tandem\bin\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+D:\Samira\Project\.Net Projects\Tandem\Tandem\Tandem\obj\Debug\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem\Tandem\Tandem\obj\Debug\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\bin\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\bin\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
+D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\obj\Debug\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\obj\Debug\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\bin\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\bin\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Debug\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Debug\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\bin\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\bin\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Release\Tandem.dll
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Release\Tandem.pdb
+D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Release\Tandem.csprojResolveAssemblyReference.cache

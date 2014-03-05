@@ -1,0 +1,287 @@
+﻿html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body { 
+	background: #dcdddf url(../images/bg-body-pattern.png) repeat;
+    color: #696a6c;
+	font-family: 'Open Sans', sans-serif, Helvetica, Arial;
+	line-height:1.3;
+}
+.outer-div {
+	
+	height: auto;
+	
+	margin: 0 auto;
+	min-width: 100px;
+	max-width: 1280px;
+	position: relative;
+	background-color: white;
+	z-index: 0;
+	webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .39);
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, .39);
+	width:100%; overflow:hidden; 
+}
+.inner-div {
+    margin:0 auto;
+    width:960px;
+    padding: 30px 0;
+}
+
+
+.row
+{
+    width: 100%;
+    float: left;
+}
+.col
+{
+    width: 457px;
+    float: left;
+}
+.colright
+{
+    width: 457px ;
+    float: left;
+    margin-left: 25px;
+}
+.col1
+{
+    width: 302px ;
+    float: left;
+}
+.holder
+{    font-size: 15px;
+
+    float: left;
+    padding: 4px 0;
+}
+.radiobtn
+{
+    float: left;
+    margin-left: 25px;
+    padding: 4px;
+}
+.mainform
+{
+   
+    background-color: #fcfcfc;
+    float: left;
+    padding: 10px;
+    width: 940px;
+}
+input[type="text"], input[type="select"]
+{
+    padding: 7px!important;  
+    width: 457px;
+    font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+}
+.col1 input[type="text"], input[type="select"]
+{
+    padding: 7px!important;    
+    width: 300px;
+  
+     font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+}
+input, select, textarea
+{
+    background: #fff;
+     padding: 7px !important;
+    color: #4a4a4a !important;
+    display: block;
+    border: 1px solid #b2b2b2;
+    outline: none;
+    margin-bottom: 15px;
+    -webkit-border-radius: 4px !important;
+    -moz-border-radius: 4px !important;
+    border-radius: 4px !important;
+   font-family: 'Open Sans', sans-serif;
+     font-size: 15px;
+}
+textarea
+{overflow:auto;
+}
+input[type="button"],input[type="submit"]
+{
+    
+     padding: 0px !important;
+  
+
+}
+input[type="radio"]
+{  
+    float: left;
+    border:none;
+}
+input[type="checkbox"] {
+    float: left;
+   margin: 4px 0 0;
+   border:none;
+}
+label
+{
+    float: left;
+    margin-left: 5px;
+  margin-top: -1px;
+}
+.ui-datepicker{width:19em !important;}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{float:left;}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span{margin-left: -12px !important;}
+.ui-datepicker .ui-datepicker-title{margin:0 44px !important;}
+.ui-datepicker select.ui-datepicker-year{margin-left:2px !important;}
+.btncss
+{
+    color: #fff !important;
+    font-size: 15px !important;
+    width: 63px;
+    height: 28px;
+    border: 1px solid #023e52;
+    margin: 0 auto; /* IE 9 and below*/
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006182', endColorstr='#023e52',GradientType=0 ); /* IE6-9 */ /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top , #006182 , #023e52 ); 
+    background-image: -o-linear-gradient(top, #006182 , #023e52 ); /* Webkit (Safari/Chrome 10) */
+    background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #006182), color-stop(1, #023e52));
+    background:-ms-linear-gradient(top, #006182, #023e52 );
+}
+
+li.PBItem
+{
+    list-style: none outside none;
+}
+div.group
+{
+    display: inline-block;
+}
+label.error 
+{
+    color: #FF0000;
+  
+    font-size: 12px;
+
+    margin-bottom: 2px;
+    margin-left: 7px;
+    margin-top: -2px;
+}
+.ui-datepicker-trigger
+{
+    float: right;
+    margin-right: 28px !important;
+}
+.ui-datepicker
+{
+    background: none repeat scroll 0 0 #fff;
+    border: 2px solid #DEDEDE;
+}
+#patientInfo, #providerInfo, #insuranceInfo, #ThankyouInfo
+{
+    width: 100%;
+    float: left;
+}
+
+#button_nav
+{
+    width: 960px;
+    height: 120px;
+    background: none repeat scroll 0 0 #fff;
+    margin-bottom: 25px;
+    margin-top: 12px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+#button_nav .button
+{
+    position: absolute;
+    z-index: 3;
+    font-size: 10px !important;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 4px !important;
+    height: 95px;
+    color: #613772;
+    border: none;
+    background: none;
+}
+
+#button_nav a
+{
+    text-decoration: none;
+}
+
+#button_nav .step_one_off
+{
+    background: url(../Patient_Images/btn_grey1.png) no-repeat;
+    width: 423px;
+    margin: -8px;
+}
+#button_nav .step_one_on
+{
+    background: url(../Patient_Images/btn_blue1.png) no-repeat;
+    color: #fff;
+    width: 423px;
+}
+
+
+#button_nav .step_two_on, #button_nav .step_two_off
+{
+    background: url(../Patient_Images/btn_grey2.png) no-repeat;
+    width: 423px;
+    margin: 8px 0 0 309px;
+    z-index: 99;
+}
+
+#button_nav .step_four_off
+{
+    background: url(../Patient_Images/btn_grey3.png) no-repeat;
+    width: 423px;
+    margin: 8px 0 0 617px;
+}
+
+
+#button_nav .step_two_on
+{
+    background: url(../Patient_Images/btn_blue2.png) no-repeat;
+    color: #fff; /*text-shadow: 0 1px 0 #d9f29f;*/
+}
+
+#button_nav .step_three_on
+{
+    background: url(../Patient_Images/b_step_three.png) no-repeat;
+    color: #fff;
+}
+
+#button_nav .step_four_on
+{
+    background: url(../Patient_Images/btn_blue3.png) no-repeat;
+    color: #fff;
+    width: 423px;
+    margin: 8px 0 0 622px;
+}
+
+#bottom_nav
+{
+    border-top: 1px #dadada solid;
+    bottom: 0px;
+}
+#bottom_nav .back, #bottom_nav .save, #bottom_nav .next{width: 100px;height: 20px;text-align: center;}
+#bottom_nav .back
+{
+    float: left;
+}
+
+p, input, select, label, table, th, td, li, dt, dd, blockquote, caption, pre, code {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.section-summary
+{margin-bottom:15px;
+}
+
+
+ 
+    
+   

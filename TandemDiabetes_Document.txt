@@ -1,0 +1,31 @@
+Below are the list of files/folder and there description for Tandem Diabetes code:
+
+1) Patient_Images Folder (Contains the images used in Patient.aspx form)
+2) Scripts Folder (Contains the javascript and css files used)
+3) Patient.aspx (Patient 3 step form)
+4) VerifyInfo.aspx (Echosign form for esignature)
+5) Thankyou.aspx (Thankyou page and here final data(xml string) is send to Tandem API)
+6) Web.config
+
+Please change the below list of app settings values in web.config file, 
+
+(Please enter you smtp  server details for recieving error notification. If smtp server doesn't not require username or password, then  leave it blank. If ssl is not required for smtp server, then leave it blank)
+    <add key="SMTPSERVER" value="" />  
+    <add key="SMTPPORT" value="" />
+    <add key="IsSSL" value =""/>
+    <add key="UserName" value="" />
+    <add key="Password" value="" />
+    <add key="FromEmail" value="" />
+    <add key="ErrorEmail" value="" />
+    <add key="FromName" value="Patient Submission Error" />
+    <add key="Subject" value="Patient Submission Error"/>
+
+(Since echosign form requires full image path, Please enter the full image path in value.Images are included in ImagesforEchoSign.zip folder. for ex: in value you need to add http://yourip/imagefolder/logo.jpg)
+
+    <add key="logoImage" value="logo.jpg"/> 
+    <add key="step1" value="Step1.jpg"/>
+    <add key="step2" value="Step1.jpg"/>
+    <add key="step3" value="Step1.jpg"/>
+    <add key="step4" value="Step1.jpg"/>
+    <add key="arrow" value="arrow.jpg"/>
+
