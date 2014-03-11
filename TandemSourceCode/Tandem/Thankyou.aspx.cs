@@ -11,6 +11,7 @@ using Tandem.TandemIntegration;
 using System.Xml;
 using System.Net.Mail;
 using System.Net;
+using Tandem.Common;
 
 namespace Tandem
 {
@@ -43,7 +44,7 @@ namespace Tandem
                     {
                         errorMsg.Visible = true;
                         lblError.Text = "Error processing your request. Please try after some time.";
-                        SendErrorMail(msg);
+                        ErrorLogs.SendErrorMail(msg, Request.Url.ToString());
                     }
 
                 }
@@ -64,38 +65,9 @@ namespace Tandem
                 }
                 else
                 {
-                    SendErrorMail(ex.Message);
+                    ErrorLogs.SendErrorMail(ex.Message, Request.Url.ToString());
                 }
             }
-        }
-        #endregion
-        #region Methods
-        void SendErrorMail(string msg)
-        {
-
-
-            string err = "Error Caught \n" +
-                          "Error in: " + Request.Url.ToString() +
-                          "\nError Message:" + msg;
-                    
-            MailMessage mMailMessage = new MailMessage();
-            mMailMessage.To.Add(ConfigurationManager.AppSettings["ErrorEmail"]);
-            mMailMessage.Bcc.Add("samiram@grazitti.com");
-            mMailMessage.From = new MailAddress(ConfigurationManager.AppSettings["FromEmail"], ConfigurationManager.AppSettings["FromName"]);
-            mMailMessage.Subject = ConfigurationManager.AppSettings["Subject"];
-            mMailMessage.Body = err;
-
-            var client = new SmtpClient(ConfigurationManager.AppSettings["SMTPSERVER"], Convert.ToInt32(ConfigurationManager.AppSettings["SMTPPORT"]));
-
-            if (ConfigurationManager.AppSettings["UserName"].ToString() != "")
-                client.Credentials = new NetworkCredential(ConfigurationManager.AppSettings["UserName"], ConfigurationManager.AppSettings["Password"]);
-
-            if (ConfigurationManager.AppSettings["IsSSL"].ToString() == "1")
-                client.EnableSsl = true;
-
-            client.Send(mMailMessage);
-            mMailMessage.Dispose();
-            client.Dispose();
         }
         #endregion
     }

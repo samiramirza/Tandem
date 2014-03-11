@@ -1,18 +1,14 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Patient.aspx.cs" Inherits="Tandem.Patient" %>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-
-
-    <link rel="stylesheet" type="text/css" href="Scripts/siteSpecific.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
+     <title>Patient Information</title>
+     <link rel="stylesheet" type="text/css" href="Scripts/siteSpecific.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
 <body>
-
     <div class="outer-div">
-
-        <div class="inner-div">
+   <div class="inner-div">
             <%--  main form--%>
             <form id="myform" runat="server">
                 <div class="content">
@@ -428,7 +424,7 @@
 
 
         $(document).ready(function () {
-
+            
             if (($.browser.msie) == true) {
                 if (($.browser.version) == '9.0' || ($.browser.version) == '8.0') {
                   
@@ -443,13 +439,25 @@
                     $('#chek_secondry').css({ "margin-top": "-3px" });
                     $('.holder').css("padding-top", "6px");
                 }
+               
                 else if (($.browser.version) == '10.0') {
-                    $('label').css("margin-top", "3px");                  
+                    $('label').css("margin-top", "3px");
+                    $('input[type="text"]').css({ "height": "22px" });
+                    $('.col, .colright, input[type="text"],textarea, input[type="select"]').css({ "width": "442px" });
+                    $('.col1, .col1 input[type="text"]').css({ "width": "288px", "height": "22px" });
+                    $('.colright').css("margin-left", "40px");
+                    $('.col1:nth-child(2), .col1:nth-child(3)').css("margin-left", "30px");
+                    $('.radiobtn').css("margin-left", "10px");
                     $('input[type="checkbox"]').css({ "margin-top": "0px" });
                     $('#chek_secondry').css({ "margin-top": "-3px" });
-                    $('.col1, .col1 input[type="text"]').css({ "height": "37px" });
-                    $('input[type="text"]').css({ "height": "38px" });
+                    $('.holder').css("padding-top", "6px");
+                    // if (document.compatMode == 'BackCompat') {
+                      //  $('.col1, .col1 input[type="text"]').css({ "height": "37px" });
+                      //  $('input[type="text"]').css({ "height": "38px" })
+                    //}
+                   
                 }
+
             }
 
             $("#txtPrimry, #txtSecondry, #txtTertry, #txtEmrgncyPhone, #txtPhonePres, #txtFaxPres").mask("999-999-9999?x9999");

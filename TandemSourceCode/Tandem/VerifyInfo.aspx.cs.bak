@@ -231,7 +231,6 @@ namespace Tandem
                     {
                         Session["childKey"] = ews.documentKey;
                         ClientScript.RegisterClientScriptBlock(this.GetType(), "echoscript", ews.javascript);
-                        ClientScript.RegisterStartupScript(this.GetType(), "getuseriddsnfo", "<script language='javascript' type='text/javascript'>getUserInfo();</script>");
                     }
                     else
                     {
@@ -264,27 +263,6 @@ namespace Tandem
         }
         #endregion
 
-          #region Methods
-       
-    
-        [WebMethod]
-        public static string checkDocumentStatus()
-        {
-            if (HttpContext.Current.Session["childKey"] != null && HttpContext.Current.Session["pifXML"] != null)
-            {
-                string childKey = HttpContext.Current.Session["childKey"].ToString();
-                EchoSignDocumentService17PortTypeClient ES = new EchoSignDocumentService17PortTypeClient();
-                GetFormDataResult sss = ES.getFormData(ConfigurationManager.AppSettings["APIKey"], childKey);
-
-                if (sss.success)
-                    return "true";
-                else
-                    return "false";
-
-            }
-            return "false";
-        }
-          #endregion
     }
 }
 

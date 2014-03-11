@@ -27,8 +27,3 @@ D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\bin\Tandem.pdb
 D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
 D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\obj\Debug\Tandem.dll
 D:\Samira\Project\.Net Projects\Tandem_Latest\Tandem\Tandem\obj\Debug\Tandem.pdb
-D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\bin\Tandem.dll
-D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\bin\Tandem.pdb
-D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Debug\Tandem.dll
-D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Debug\Tandem.pdb
-D:\Samira\Project\.Net Projects\Tandem_latest\Tandem\obj\Debug\Tandem.csprojResolveAssemblyReference.cache
